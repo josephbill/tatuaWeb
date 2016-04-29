@@ -1,0 +1,88 @@
+
+
+
+#pitch {
+
+
+	background-image: url('images/lolo.jpeg');
+   
+	padding: 146px 0px;
+	/*if background images repeats then use*/
+	 background-image: no repeat; /*o stop repetation and */
+	 background-size: cover;
+	background-position: center;
+}
+body {
+
+   background-color:  #263238;
+
+}
+
+
+
+
+.container .jumbotron,
+.container-fluid .jumbotron{
+	border-radius: 0px;
+
+}
+#nav{
+
+	float: left;
+}
+
+#contact-form {
+
+float: right;
+
+
+}
+
+#really{
+
+
+	float: left;
+}
+
+
+#wood{
+
+	float: right;
+}
+
+#navbar{
+
+   background-image: url('images/java.jpeg');
+}
+#billy{
+
+    color: #FBC02D;
+
+}
+#County{
+
+    color: #FFD600;
+
+}
+#tweety{
+
+	color: #FFD600;
+}
+#para{
+  color: white;
+
+}
+
+#contact{
+
+	float: center;
+}
+#Connect {
+
+   color: #FFD600;
+
+}
+#tatuaa{
+
+	color: #FFD600;
+}

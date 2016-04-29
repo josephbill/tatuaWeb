@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <!-- the following code sets browser to understand diff languages -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <!-- /define bootstrap path in the css link as the line below -->
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/jquery-ui.min.css">
+    <title>TATUA</title>
+    <script src="bootstrap-3.3.5-dist/js/angular.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/appcontroller.js"></script>
+    <!-- NAVBAR
+  ================================================== 
+    
+           -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="nav">
+                    <li><a href="#Tweet">Tweet</a></li>
+                    <li><a href="#County">Select County</a></li>                  
+                    <li><a href="#aboutme">About</a></li>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#contact">Contact</a></li>
+                 
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--everything above this comment is code for the navbar -->
+    <!--the container-fluid comment increases the width of the image -->
+    <div class="container-fluid">
+        <section class="row text-center jumbotron" id="pitch">
+            <h1 id="billy">TATUA<br>| See.Capture.Tweet |</h1>
+        </section>
+    </div>
+    
+    <!--col-sm-4 is used to create columns sm is the screen size  -->
+    
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+
+    <!--select county section -->
+      <div class="container-fluid">
+          <section class="page-header text-center">
+              <h1 id="County"> Select County </h1>
+                
+
+<div ng-init="counties = [{'Nairobi'},
+                        ]"></div>
+
+<label>Search: <input ng-model="searchText"></label>
+
+
+
+          </section>
+
+      </div>
+
+    <!--tweet seCtion -->
+     <div class="container-fluid" id="Tweet">
+     <section class="text-center">
+  <h1 id="tweety">  Tweet </h1>
+  <form class="col-sm-12" action="/" method="post" id="contact-form">
+  
+ <textarea rows="10" cols="5" class="form-control" name="comment"></textarea>
+
+     </section>    
+     </div>
+     <!--about section-->
+      <div class="text-center" id= "aboutme">
+           <h1 class="text-center" id="tatuaa">About Tatua</h1>
+
+                <p class="text-center" id="para"> Tatua is a mobile/web platform that  allows Kenyan citizens to capture societies ills i.e stalled development works, corrupt officials and using the twitter platform they can tweet this information which is tagged to the respective parties incharge of monitoring the various departments over and over again until the issue is addressed</p>
+   </div>
+        <!--the code below is linked to main.css 
+         <div class = "background" ></div> -->
+         <!--footer-->
+
+
+        <footer class="row">
+            <div class="page-header text-center" id="contact">
+                <h1 id="Connect">Connect</h1>
+            </div>
+          
+            <div class="cols-sm-6">
+            <section>
+                
+                <!--col-sm-4 is used to create columns sm is the screen size  -->
+                <!-- to make image tags act as links simply next the image tag inside the <a> tag -->
+                <a href="https://www.facebook.com/josevonkal" target="_blank">
+                    <img src="images/fb.png" alt=""></a>
+                <a href="https://twitter.com/dekreebill" target="_blank">
+                    <img src="images/twitter.png" alt=""></a>
+                <a href="https://github.com/josephbill">
+                    <img src="images/github1.png" alt=""></a>
+                <a href="https://plus.google.com/u/0/" target="_blank">
+                    <img src="images/google.png" alt=""></a>
+                <a href="https://instagram.com/zero_bill/" target="_blank">
+                    <img src="images/instagram.png" alt=""></a> 
+
+                 
+                     
+               <div>
+                <p class="text-center">copyright @dekreeApps</p>
+                <p class="text-center">0734724283</p>
+                <p class="text-center">Tatua@gmail.com</p>
+            </div>
+                    
+
+
+
+                
+            </section>
+            </div>
+           
+            
+        </footer>
+        
+
+        
+        <!-- code your javascript code here before the closing body tag script tag is used /-->
+        <!--the following section is where all links are added when using jquery link to the html and other file-->
+        <!-- ajax link enable users to reload page without seeing the actual reloading -->
+        <script src="jquery-1.11.3.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/jqueryui.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/jquerywork.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+        </body>
+
+</html>
